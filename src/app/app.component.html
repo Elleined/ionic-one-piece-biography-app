@@ -1,0 +1,41 @@
+<ion-menu contentId="menu-content">
+
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Straw Hat Crew</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-menu-toggle>
+      <ion-item routerLink="/luffy">Luffy</ion-item>
+      <ion-item routerLink="/zoro">Zoro</ion-item>
+      <ion-item routerLink="/nami">Nami</ion-item>
+      <ion-item routerLink="/usopp">Usopp</ion-item>
+      <ion-item routerLink="/sanji">Sanji</ion-item>
+      <ion-item routerLink="/chopper">Chopper</ion-item>
+      <ion-item routerLink="/robin">Robin</ion-item>
+      <ion-item routerLink="/franky">Franky</ion-item>
+      <ion-item routerLink="/brook">Brook</ion-item>
+      <ion-item routerLink="/jinbei">Jinbei</ion-item>
+      <ion-item routerLink="/developers"><strong>Developers</strong></ion-item>
+    </ion-menu-toggle>
+  </ion-content>
+
+  <ion-footer>
+    <ion-toolbar color="primary">
+      <ion-menu-toggle>
+        <ion-item routerLink="/home/onepiece">
+          <ion-label class="ion-text-center">Home</ion-label>
+          <ion-icon name="home" slot="end"></ion-icon>
+        </ion-item>
+      </ion-menu-toggle>
+    </ion-toolbar>
+  </ion-footer>
+
+</ion-menu>
+
+<ion-app>
+  <ion-router-outlet id="menu-content"></ion-router-outlet>
+</ion-app>
+

@@ -1,0 +1,102 @@
+body {
+	background-color: blue;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+}
+
+/* */
+header {
+	display: flex;
+	background-color: darksalmon;
+	width: 100%;
+	height: 150px	;
+	max-height: 30%;
+}
+
+.header-first {
+	background-color: green;
+	width: 80%;
+}
+
+.header-second {
+	background-color: violet;
+	width: 20%;
+}
+
+.header-third {
+	background-color: pink;
+	width: 20%;
+}
+
+section {
+	display: flex;
+	background-color: orange;
+	height: 478.7px;
+	max-height: 70%;
+}
+	
+.section-first {
+	background-color: violet;
+	width: 30%;
+}
+
+.section-second {
+	display: inline-grid;
+	background-color: coral;
+	width: 70%;
+}
+
+.section-second-first {
+	display: flex;
+	background-color: blueviolet;
+}
+
+.section-second-first-first {
+	background-color: firebrick;
+	width: 30%;
+}
+
+.section-second-first-second {
+	background-color: honeydew;
+	width: 30%;
+}
+
+.section-second-first-third {
+	background-color: wheat;
+	width: 54.8%;
+}
+
+.section-second-second {
+	background-color: bisque;
+}
+
+.section-second-third {
+	background-color: darksalmon;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
